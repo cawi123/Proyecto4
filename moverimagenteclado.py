@@ -5,7 +5,7 @@ tk = Tk()
 canvas = Canvas(tk, width=400 ,height=200)
 canvas.pack()
 #El archivo de la imagen 
-image=PhotoImage(file="bola.gif")
+image=PhotoImage(file="michael.gif")
 #Creamos la imagen en la ventana 
 canvas.create_image(0,0,anchor=NW,image=image)
 
